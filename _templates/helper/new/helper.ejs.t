@@ -1,5 +1,5 @@
 ---
-to: libs/functions/<%= name %>/index.ts
+to: src/libs/functions/<%= name %>/index.ts
 ---
 
 const <%= name %> = () => {

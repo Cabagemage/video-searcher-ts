@@ -1,12 +1,13 @@
 ---
-to: ui/<%= Name %>/index.tsx
+to: src/ui/<%= Name %>/index.tsx
 ---
-
 import type {FC} from "react";
-import type {<%= Name %>Props} from "./<%= Name %>.typedef";
 
+type <%= Name %>Props = {
 
-const <%= Name %>:FC<<%= Name %>Props> = (props) => {
+}
+
+const <%= Name %>:FC<<%= Name %>Props> = ({}: <%= Name %>Props) => {
 
 return (
 <></>
